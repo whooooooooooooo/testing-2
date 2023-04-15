@@ -3,7 +3,7 @@ import { BiNotepad } from "react-icons/bi";
 import About from "./About";
 const Acard = () => {
   return (
-    <a className="carda" href="/aboutus">
+    <a className="carda" href="testing-2/aboutus">
       <div className="acard">
         <h2>
           About Us <BiNotepad />
