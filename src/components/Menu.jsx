@@ -6,7 +6,7 @@ const Menu = () => {
     <a className="ma" href="">
       <div className="menu">
         <h2>
-          Menu fudasck<GiKnifeFork />
+          Menu <GiKnifeFork />
         </h2>
       </div>
     </a>
