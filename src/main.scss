@@ -1,0 +1,683 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@700;800&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "nunito", sans-serif;
+}
+
+body {
+  background: hsl(0, 0%, 60%);
+  padding: 2.5rem 2rem;
+}
+::-webkit-scrollbar {
+  scrollbar-width: none;
+  display: none;
+}
+.hhh {
+  padding: 1rem 0;
+}
+
+.home {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+.home2 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.home3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+a {
+  text-decoration: none;
+}
+
+/* Navbar */
+.navbar {
+  background-image: url(./assets/nav.jpg);
+  opacity: 0.6;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+
+  .logo {
+    font-size: 20px;
+    font-weight: 800;
+  }
+}
+/* Navbar */
+
+/* Delivery */
+.dimg {
+  height: 30vh;
+  img {
+    width: 316px;
+    height: 30vh;
+    object-fit: fill;
+  }
+}
+/* Delivery */
+
+/* Delivery */
+.da {
+  height: 30vh;
+  .delivery {
+    background-color: rgba(42, 180, 93, 0.576);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+    width: 220px;
+
+    h2 {
+      font-size: 15px;
+      color: whitesmoke;
+    }
+  }
+}
+/* Delivery */
+
+/* Menu */
+.ma {
+  height: 30vh;
+  .menu {
+    background-color: darkolivegreen;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+    width: 280px;
+
+    h2 {
+      font-size: 15px;
+      color: burlywood;
+      right: 20%;
+    }
+  }
+}
+/* Menu */
+
+/* cardd1 */
+.card {
+  height: 30vh;
+  img {
+    width: 280px;
+    height: 30vh;
+    object-fit: cover;
+  }
+}
+/* cardd1 */
+
+/* Acard */
+.carda {
+  height: 25.2vh;
+  .acard {
+    background-color: rgba(14, 98, 232, 0.641);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25.2vh;
+    width: 500px;
+
+    h2 {
+      font-size: 19px;
+      color: darkslategrey;
+    }
+  }
+}
+
+/* About */
+.about {
+  .con {
+    padding: 3rem 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    .left {
+      width: 80%;
+
+      .icon {
+        color: black;
+        font-size: 20px;
+        font-weight: 800;
+        margin-top: 20px;
+      }
+
+      .toptext {
+        margin-top: 10px;
+        h2 {
+          font-weight: 800;
+          font-size: 30px;
+        }
+        p {
+          margin-top: 10px;
+          width: 70%;
+        }
+      }
+      .chef {
+        margin-top: 40px;
+        h2 {
+          margin-bottom: 30px;
+          width: 75%;
+          margin-left: 20px;
+        }
+        .img {
+          width: 75%;
+          img {
+            height: 75px;
+            max-width: 400px;
+            width: 75px;
+            object-fit: cover;
+            border-radius: 50%;
+            margin-left: 20px;
+            margin-bottom: 40px;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+    .right {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      img {
+        width: 48%;
+        border-radius: 1rem;
+        margin-top: 40px;
+        margin-left: 5px;
+        cursor: pointer;
+      }
+    }
+  }
+}
+/* About */
+
+/* Acard */
+
+/* card3 */
+.card3 {
+  height: 25.2vh;
+  img {
+    width: 400px;
+    height: 25.2vh;
+    object-fit: cover;
+  }
+}
+/* card3 */
+
+/* Bookings */
+.ba {
+  height: 25.2vh;
+  .bookings {
+    background-color: cornsilk;
+    height: 25.2vh;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    h2 {
+      font-size: 17px;
+      color: cadetblue;
+    }
+  }
+}
+/* Bookings */
+
+/* Gallery */
+.gallery {
+  height: 25.2vh;
+  img {
+    width: 176px;
+    height: 25.2vh;
+    object-fit: cover;
+  }
+}
+/* Gallery */
+
+/* Contact */
+.ca {
+  height: 25vh;
+
+  .contact {
+    height: 25vh;
+    width: 300px;
+    background-color: cornsilk;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    h2 {
+      font-weight: 800;
+      font-size: 17px;
+      color: cornflowerblue;
+    }
+  }
+}
+/* Contact */
+
+/* Card5 */
+.card5 {
+  height: 25vh;
+  img {
+    width: 800px;
+    height: 25vh;
+    object-fit: cover;
+  }
+}
+/* Card5 */
+
+/* Location */
+.la {
+  height: 25vh;
+  .location {
+    height: 25vh;
+    width: 276px;
+    background-color: darkblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+
+    h2 {
+      font-weight: 800;
+      font-size: 17px;
+      color: greenyellow;
+    }
+  }
+}
+/* Location */
+
+@media screen and (max-width: 768px) {
+  /* Home */
+
+  .card {
+    height: 23vh;
+    img {
+      width: 120px;
+      object-fit: cover;
+      height: 23vh;
+    }
+  }
+
+  .ma {
+    height: 23vh;
+    .menu {
+      width: 150px;
+      height: 23vh;
+    }
+  }
+
+  .da {
+    height: 23vh;
+    .delivery {
+      width: 120px;
+      height: 23vh;
+    }
+  }
+
+  .dimg {
+    height: 23vh;
+    img {
+      width: 194px;
+      height: 23vh;
+    }
+  }
+  /* Home */
+
+  /* Home2 */
+  .carda {
+    height: 20vh;
+    .acard {
+      width: 250px;
+      height: 20vh;
+    }
+  }
+
+  .card3 {
+    height: 20vh;
+    img {
+      width: 200px;
+      height: 20vh;
+    }
+  }
+
+  .ba {
+    height: 20vh;
+    .bookings {
+      width: 157px;
+      height: 20vh;
+      h2 {
+        text-align: center;
+      }
+    }
+  }
+
+  .gallery {
+    height: 20vh;
+    img {
+      width: 97px;
+      height: 20vh;
+    }
+  }
+  /* Home2 */
+
+  /* Home3 */
+  .ca {
+    height: 23vh;
+
+    .contact {
+      width: 160px;
+      height: 23vh;
+    }
+  }
+
+  .card5 {
+    height: 23vh;
+
+    img {
+      width: 400px;
+      height: 23vh;
+    }
+  }
+
+  .la {
+    height: 23vh;
+
+    .location {
+      width: 144px;
+      height: 23vh;
+    }
+  }
+
+  /* Home3 */
+}
+
+@media screen and (max-width: 425px) {
+  body {
+    padding: 10rem 2rem;
+  }
+  .navbar {
+    width: 361px;
+    .logo {
+      font-size: 10px;
+    }
+  }
+
+  /* Home */
+  .card {
+    height: 11vh;
+
+    img {
+      width: 60px;
+      height: 11vh;
+    }
+  }
+
+  .ma {
+    height: 11vh;
+
+    .menu {
+      width: 80px;
+      height: 11vh;
+
+      h2 {
+        font-size: 8px;
+      }
+    }
+  }
+
+  .da {
+    height: 11vh;
+
+    .delivery {
+      width: 60px;
+      height: 11vh;
+
+      h2 {
+        font-size: 8px;
+        text-align: center;
+      }
+    }
+  }
+
+  .dimg {
+    height: 11vh;
+
+    img {
+      width: 101px;
+      height: 11vh;
+    }
+  }
+  /* Home */
+
+  /* Home2 */
+  .carda {
+    height: 11vh;
+
+    .acard {
+      width: 120px;
+      height: 11vh;
+
+      h2 {
+        font-size: 8px;
+      }
+    }
+  }
+
+  .card3 {
+    height: 11vh;
+
+    img {
+      width: 100px;
+      height: 11vh;
+    }
+  }
+
+  .ba {
+    height: 11vh;
+
+    .bookings {
+      width: 92px;
+      height: 11vh;
+      h2 {
+        text-align: center;
+        font-size: 8px;
+      }
+    }
+  }
+
+  .gallery {
+    height: 11vh;
+    img {
+      width: 49px;
+      height: 11vh;
+    }
+  }
+  /* Home2 */
+
+  /* Home3 */
+  .home3 {
+    top: 25px;
+  }
+  .ca {
+    .contact {
+      width: 75px;
+      height: 12vh;
+
+      h2 {
+        font-size: 8px;
+      }
+    }
+  }
+
+  .card5 {
+    img {
+      width: 200px;
+      height: 12vh;
+    }
+  }
+
+  .la {
+    .location {
+      width: 86px;
+      height: 12vh;
+
+      h2 {
+        font-size: 8px;
+      }
+    }
+  }
+
+  /* Home3 */
+}
+
+@media screen and (max-width: 375px) {
+  body {
+    padding: 8rem 2rem;
+  }
+  .hhh {
+    margin-top: 80px;
+  }
+  .navbar {
+    width: 311px;
+    .logo {
+      font-size: 11px;
+    }
+  }
+
+  /* Home */
+  .card {
+    height: 9vh;
+
+    img {
+      width: 50px;
+      height: 9vh;
+    }
+  }
+
+  .ma {
+    height: 9vh;
+
+    .menu {
+      width: 60px;
+      height: 9vh;
+
+      h2 {
+        font-size: 8px;
+      }
+    }
+  }
+
+  .da {
+    height: 9vh;
+
+    .delivery {
+      width: 45px;
+      height: 9vh;
+
+      h2 {
+        font-size: 6px;
+        text-align: center;
+      }
+    }
+  }
+
+  .dimg {
+    height: 9vh;
+
+    img {
+      width: 106px;
+      height: 9vh;
+    }
+  }
+  /* Home */
+
+  /* Home2 */
+  .carda {
+    height: 8vh;
+
+    .acard {
+      width: 110px;
+      height: 8vh;
+
+      h2 {
+        font-size: 8px;
+      }
+    }
+  }
+
+  .card3 {
+    height: 8vh;
+
+    img {
+      width: 80px;
+      height: 8vh;
+    }
+  }
+
+  .ba {
+    height: 8vh;
+
+    .bookings {
+      width: 80px;
+      height: 8vh;
+      h2 {
+        text-align: center;
+        font-size: 8px;
+      }
+    }
+  }
+
+  .gallery {
+    height: 8vh;
+
+    img {
+      width: 41px;
+      height: 8vh;
+    }
+  }
+  /* Home2 */
+
+  /* Home3 */
+  .ca {
+    height: 9vh;
+    .contact {
+      width: 65px;
+      height: 9vh;
+
+      h2 {
+        font-size: 8px;
+      }
+    }
+  }
+
+  .card5 {
+    height: 9vh;
+    img {
+      width: 160px;
+      height: 9vh;
+    }
+  }
+
+  .la {
+    height: 9vh;
+
+    .location {
+      width: 86px;
+      height: 9vh;
+
+      h2 {
+        font-size: 8px;
+      }
+    }
+  }
+
+  /* Home3 */
+}
