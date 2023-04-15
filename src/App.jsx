@@ -6,10 +6,10 @@ import Home from "./components/Home";
 
 const App = () => {
   return (
-    <BrowserRouter basename="/testing-2">
+    <BrowserRouter basename="testing-2/">
     <div>
       <Routes>
-        <Route exact path="/testing-2" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/aboutus" element={<About />} />
       </Routes>
     </div>
