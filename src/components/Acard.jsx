@@ -6,7 +6,7 @@ const Acard = () => {
     <a className="carda" href="testing-2/aboutus">
       <div className="acard">
         <h2>
-          About Us <BiNotepad />
+          About Us wtd<BiNotepad />
         </h2>
       </div>
     </a>
